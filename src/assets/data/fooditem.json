@@ -1,0 +1,73 @@
+[{
+    "itemName":"Pork Roast", 
+    "itemDescription": "Roasted Pork in soya sauce", 
+    "itemImage": "dish-2.jpg", 
+    "itemPrice": "380",
+    "itemCategory": "Meal"
+},{
+    "itemName":"Cake", 
+    "itemDescription": "Delicious Chocolate Cakes", 
+    "itemImage": "dish-cake-1.jpg", 
+    "itemPrice": "140",
+    "itemCategory": "Desert"
+},{
+    "itemName":"Bao Bun", 
+    "itemDescription": "Pork filled Bao Buns, soft and delicious", 
+    "itemImage": "bao-bun.jpg", 
+    "itemPrice": "150",
+    "itemCategory": "Snack"
+},{
+    "itemName":"Fried Rice", 
+    "itemDescription": "Yummy Delicious Fried Rice", 
+    "itemImage": "dish-rice-4.jpg", 
+    "itemPrice": "220",
+    "itemCategory": "Meal"
+}, {
+    "itemName":"Pepper Chicken", 
+    "itemDescription": "Chinese style pepper chicken, tender and boneless", 
+    "itemImage": "dish-1.jpg", 
+    "itemPrice": "500",
+    "itemCategory": "Meal"
+}, {
+    "itemName":"Chillie Chicken Chicken", 
+    "itemDescription": "Chinese style chillie chicken chicken, tender and boneless, without gravy", 
+    "itemImage": "dish-3.jpg", 
+    "itemPrice": "480",
+    "itemCategory": "Meal"
+}, {
+    "itemName":"Beef Wellington", 
+    "itemDescription": "Beef Wellinton, succulent and tender", 
+    "itemImage": "dish-4.JPG", 
+    "itemPrice": "700",
+    "itemCategory": "Meal"
+}, {
+    "itemName":"Bun", 
+    "itemDescription": "Chinese soft bun", 
+    "itemImage": "dish-bun-3.jpg", 
+    "itemPrice": "200",
+    "itemCategory": "Snack"
+}, {
+    "itemName":"Blue Berry Muffin", 
+    "itemDescription": "French Pastry at the finest", 
+    "itemImage": "dish-cake-4.jpg", 
+    "itemPrice": "280",
+    "itemCategory": "Desert"
+}, {
+    "itemName":"Fried Rice", 
+    "itemDescription": "Fried Rice with toasted vegetables", 
+    "itemImage": "dish-rice-2.jpg", 
+    "itemPrice": "380",
+    "itemCategory": "Meal"
+}, {
+    "itemName":"Butterscotch Cake", 
+    "itemDescription": "Vanilla cake with Butterscotch icing", 
+    "itemImage": "dish-cake-3.jpg", 
+    "itemPrice": "400",
+    "itemCategory": "Desert"
+}, {
+    "itemName":"Sticky Rice", 
+    "itemDescription": "Sweet sticky rice with Mango", 
+    "itemImage": "dish-rice-3.jpg", 
+    "itemPrice": "620",
+    "itemCategory": "Meal"
+}]

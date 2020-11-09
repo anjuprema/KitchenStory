@@ -1,0 +1,22 @@
+[{
+    "itemName":"Fried Rice", 
+    "itemDescription": "Fried Rice with toasted vegetables", 
+    "itemImage": "dish-rice-2.jpg", 
+    "itemPrice": "380",
+    "itemCategory": "Meal",
+    "itemCount": 2
+}, {
+    "itemName":"Butterscotch Cake", 
+    "itemDescription": "Vanilla cake with Butterscotch icing", 
+    "itemImage": "dish-cake-3.jpg", 
+    "itemPrice": "400",
+    "itemCategory": "Desert",
+    "itemCount": 4
+}, {
+    "itemName":"Sticky Rice", 
+    "itemDescription": "Sweet sticky rice with Mango", 
+    "itemImage": "dish-rice-3.jpg", 
+    "itemPrice": "620",
+    "itemCategory": "Meal",
+    "itemCount": 1
+}]

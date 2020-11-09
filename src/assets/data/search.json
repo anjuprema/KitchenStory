@@ -1,0 +1,25 @@
+[{
+    "itemName":"Butterscotch Cake", 
+    "itemDescription": "Vanilla cake with Butterscotch icing", 
+    "itemImage": "dish-cake-3.jpg", 
+    "itemPrice": "400",
+    "itemCategory": "Desert"
+},{
+    "itemName":"Blue Berry Muffin", 
+    "itemDescription": "French Pastry at the finest", 
+    "itemImage": "dish-cake-4.jpg", 
+    "itemPrice": "280",
+    "itemCategory": "Desert"
+},{
+    "itemName":"Cake", 
+    "itemDescription": "Delicious Chocolate Cakes", 
+    "itemImage": "dish-cake-1.jpg", 
+    "itemPrice": "140",
+    "itemCategory": "Desert"
+}, {
+    "itemName":"Oreo Cake", 
+    "itemDescription": "Oreo Cakes", 
+    "itemImage": "dish-cake-2.jpg", 
+    "itemPrice": "140",
+    "itemCategory": "Desert"
+}]

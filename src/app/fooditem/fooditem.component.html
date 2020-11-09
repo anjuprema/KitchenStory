@@ -1,0 +1,13 @@
+<div class="row" *ngFor="let dish of foodList">       
+    <div class="col-sm-6 col-lg-4 col-xl-4 p-4">
+        <div class="card" style="width: 18rem;">
+            <img src="{{imagePath}}{{dish.itemImage}}"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">{{dish.itemName}}</h5>
+                <p class="card-text">{{dish.itemDescription}}</p>
+                <a href="#" class="btn btn-primary">Add</a>
+            </div>
+        </div>
+    </div>
+</div>

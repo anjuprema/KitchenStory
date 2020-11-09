@@ -1,0 +1,48 @@
+<div class="container border-top border-left border-right border-bottom"
+    style="margin-top:20px; padding-top:10px; width:350px; margin: 20 auto;">
+    <form #loginForm="ngForm" novalidate>
+        <div class="form-group">
+            <label for="loginInputUserName">User Name</label>
+            <input type="text" class="form-control" id="loginInputUserName" name="loginInputUserName"
+                [(ngModel)]="user.username" #username="ngModel" minlength="5" maxlength="10">
+            <small *ngIf="hasError(username)" id="usernameHelp" class="form-text help-block"
+                [ngClass]='{"has-error": hasError(username)}'>
+                <span *ngIf="username.errors.required">Enter valid data</span>
+                <span *ngIf="username.errors.minlength">Enter minimum 5 characters</span>
+                <span *ngIf="username.errors.maxlength">Maximum 10 characters only</span>
+            </small>
+        </div>
+        <div class="form-group">
+            <label for="loginInputPassword1">Password</label>
+            <input type="password" class="form-control" id="loginInputPassword1" name="loginInputPassword1"
+                [(ngModel)]="user.password" #password="ngModel" minlength="5" maxlength="10">
+            <small *ngIf="hasError(password)" id="usernameHelp" class="form-text help-block"
+                [ngClass]="{'has-error': hasError(password)}">
+                Enter valid password
+            </small>
+        </div>
+        <button type="submit" class="btn btn-primary" (click)="submitLogin(loginForm)">Submit</button>
+    </form>
+</div>
+
+
+<!-- 
+<div class="container border-top border-left border-right border-bottom" style="margin-top:20px; padding-top:10px; width:350px; margin: 20 auto;">
+    <form class="form-inline" #loginForm="ngForm">
+        <div [hidden]="submitted">
+        <label for="inlineFormInputName1">User Name: </label>
+        <input type="text" class="form-control mb-2 mr-sm-2 w-100" id="inlineFormInputName1" required>
+
+        <label for="inlineFormInputPassword1">Password: </label>
+        <input type="password" class="form-control mb-2 mr-sm-2 w-100" id="inlineFormInputPassword1" novalidate>
+
+        <button type="submit" class="btn btn-primary mb-2">Login</button>
+        </div>
+    </form>
+</div>
+{{submitted}}
+<div *ngIf="submitted" class="container">
+    <pre>
+        {{loginForm.value | json}}
+    </pre>
+</div> -->

@@ -1,0 +1,40 @@
+<div class="row">
+    <div class="col-sm-6 col-lg-4 col-xl-4 p-4" *ngFor="let dish of cartData">
+        <div class="card" style="width: 18rem;">
+            <img src="{{imagePath}}{{dish.itemImage}}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">{{dish.itemName}}</h5>
+                <p class="card-text">{{dish.itemPrice |currency : 'INR' }}</p>
+                <p class="card-text">{{dish.itemDescription}}</p>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="option1" > -
+                    </label>
+                    <label class="btn btn-secondary active">
+                        <input type="radio" name="options" id="option2" checked disabled>  {{dish.itemCount}}
+                    </label>
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="option3"> +
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<hr>
+<dl class="row">
+    <dd class="col-sm-6">Total Amount:</dd>
+    <dt class="col-sm-6">Rs. 1500</dt>  
+     
+    <dd class="col-sm-6">GST (5% of total amount)</dd>
+    <dt class="col-sm-6">Rs. 350.00</dt>
+
+    <dd class="col-sm-6">Delivery and Packaging:</dd>
+    <dt class="col-sm-6">Rs. 35.00</dt>
+  
+    <dd class="col-sm-6">Amount Payable</dd>
+    <dt class="col-sm-6" style="color:crimson">Rs. 1885.00</dt>
+
+    <dd class="col-sm-6"></dd>
+    <dt class="col-sm-6"><button type="button" class="btn btn-primary">Pay Now</button></dt>
+</dl>
